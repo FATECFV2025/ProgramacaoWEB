@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+      form{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        gap:10px
+      }
+
+    </style>
+</head>
+<body>
+    <form action="server_insert.php" method="POST">
+        <label for="nome"> Nome</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email">
+
+        <label for="cpf">CPF</label>
+        <input type="text" name="cpf" id="cpf">
+
+        <label for="senha">Senha </label>
+        <input type="password" name="senha" id="senha">
+
+        <label for="repetir_senha">Repetir a Senha</label>
+        <input type="password" name="repetir_senha" id="repetir_senha">
+
+        <input type="submit" value="Registrar">
+
+        <p>
+            Já possui uma conta? <a href="index.html">Entrar</a>
+        </p>
+
+    </form>
+</body>
+</html>

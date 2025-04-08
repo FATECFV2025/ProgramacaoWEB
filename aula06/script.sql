@@ -1,0 +1,10 @@
+CREATE TABLE USUARIO (
+  id_usuario integer PRIMARY KEY AUTOINCREMENT,
+  nm_usuario VARCHAR(100),
+  email VARCHAR(150),
+  senha VARCHAR(30),
+  cpf CHAR(14)
+
+);
+
+DROP TABLE USUARIO;
