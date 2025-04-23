@@ -1,0 +1,66 @@
+p {
+    color: brown;
+    font-size: 24px;
+}
+
+/* .nome_classe */
+.caixa_px {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.caixa_cm {
+    width: 14cm;
+    height: 7cm;
+    background-color: lightgreen;
+    margin-bottom: 20px;
+}
+
+.caixa_mm {
+    width: 150mm;
+    height: 130mm;
+    background-color: lightcoral;
+    margin-bottom: 20px;
+}
+
+
+
+.caixa_in {
+    width: 4in;
+    height: 2.5in;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: brown;
+}
+
+/* #nome_id */
+#caixa_porcentagem {
+    width: 50%;
+    height: 75%;
+    background-color: antiquewhite;
+}
+
+#caixa_vw{
+    width: 75vw;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+#caixa_vh{
+    width: 200px;
+    height: 50vh;
+    background-color: bisque;
+}
+
+#caixa_rem{
+    width: 200px;
+    height:100px;
+    font-size: 3.50rem;
+}
