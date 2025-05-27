@@ -1,0 +1,75 @@
+/* Seletor por ID */
+#souID{
+    background-color: lightblue;
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+}
+
+/* Seletor por Class */
+.souClass{
+    background-color: aquamarine;
+    width: 300px;
+    height: 50px;
+    border: 1px solid;
+}
+
+/* Seletor por Tag */
+
+p{
+    font-size: 24px;
+    color:rgba(31, 30, 30, 0.941);
+}
+
+/* Utilizando Margin */
+.caixa_1{
+    width: 300px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin: 10px 20px 10px 20px;
+}
+
+.caixa_2{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Utilizando Padding */
+.caixa_3{
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: lightblue;
+    padding: 20px 20px 20px 20px; 
+    /* sentindo horário */
+}
+
+.caixa_4{
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: lightcoral;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+/* Display */
+.block-element{
+    display: block;
+}
+.inline-block-element{
+    display: inline-block;
+}
+
+.inline-element{
+    display: inline;
+}
+.none-element{
+    display: none;
+}
