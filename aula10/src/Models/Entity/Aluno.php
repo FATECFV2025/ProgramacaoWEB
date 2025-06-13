@@ -7,6 +7,8 @@ class Aluno
     private $id;
     private $nome;
     private $genero;
+    // private $cpf;
+    // private $status;
 
     public function __construct($nome, $genero)
     {

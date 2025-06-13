@@ -2,7 +2,7 @@
     "name": "aluno/aula10",
     "autoload": {
         "psr-4": {
-            "Aluno\\Aula10\\": "src/"
+            "src\\": "src/"
         }
     },
     "authors": [
